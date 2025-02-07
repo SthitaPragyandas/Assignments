@@ -13,12 +13,13 @@ class Employee extends Person{
         this.salary=salary;
         this.doj=doj;
         this.nin=nin;
-    
+        
 
     }
     public void disp(){
         System.out.println("emp name ="+name+"salary="+salary+"date of joining="+doj+"nin="+nin);
     }
+    
 
 }
 

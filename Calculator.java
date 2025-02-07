@@ -1,4 +1,4 @@
-  
+ 
 class Calculator
 {
  public static int PowreInt(int num1,int num2)
@@ -17,8 +17,7 @@ class Calculatormain
 public static void main(String s[])
 {
 Calculator c1=new Calculator();
-System.out.println("power  res = "+ c1.PowreInt( 2,3));
-System.out.println("power  res = "+ c1.PowerDouble (3.0,4.0));
-
+System.out.println("power  res = "+ c1.powerInt (2,3));
+System.out.println("power  res = "+ c1.powerDouble (3.0,4.0));
 }
 }

@@ -1,9 +1,7 @@
 class Loop{
     public static void main(String args[]){
-
-    
-        for(int i=0;i<100;i++)
-        System.out.println(i);
+        for(int counter=0;counter<100;counter++)
+        System.out.println(counter);
     }
 
 }

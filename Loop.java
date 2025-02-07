@@ -1,14 +1,7 @@
-class Loop
-{
-  public static void main (String s[])
+class Loop{
+    public static void main(String args[]){
+        for(int counter=0;counter<100;counter++)
+        System.out.println(counter);
+    }
 
-{
-  for(int i=1;i<3;i++)
- System.out.println("******");
- System.out.println("******");
- System.out.println("******");
- System.out.println("******");
-
-
-}
 }
